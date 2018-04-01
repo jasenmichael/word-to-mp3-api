@@ -16,4 +16,4 @@ app.get('/:searchWord', function (req, res) {
   })
 })
 
-app.listen(3000);
+app.listen(env.PORT || 3000);
