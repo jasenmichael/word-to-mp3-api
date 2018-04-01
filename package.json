@@ -1,0 +1,24 @@
+{
+  "name": "word-to-mp3-api",
+  "version": "1.0.0",
+  "description": "REST api that returns an mp3 file for the searched word.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@jasenmichael",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "https": "^1.0.0",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0"
+  },
+  "keywords": [
+    "api",
+    "word",
+    "to",
+    "mp2"
+  ]
+}
