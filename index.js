@@ -9,6 +9,8 @@ app.use(morgan('dev'))
 app.use(cors())
 app.use(bodyParser.json())
 
+app.options('*', cors()) 
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname+'/index.html'))
 })
