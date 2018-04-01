@@ -4,7 +4,7 @@
   "description": "REST api that returns an mp3 file for the searched word.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "@jasenmichael",
   "license": "MIT",
